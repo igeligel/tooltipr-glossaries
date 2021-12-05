@@ -80,48 +80,64 @@ export const financialIndependenceGlossary: Glossary = {
     {
       uuid: "e8dab500-bae4-4a71-bafb-c02d904f73dd",
       term: "PPO",
-      title: "Preferred Provider Organization (health insurance)",
+      title: "Preferred Provider Organization",
       description: `PPO stands for Preferred Provider Organization, and it's a sort of managed care health insurance plan that gives you the most benefits if you see an in-network physician or provider, while still allowing you to see out-of-network doctors.`,
       tags: [
         {
           name: "financial-independence",
           color: "blue",
         },
+        {
+          name: "health-insurance",
+          color: "pink",
+        },
       ],
     },
     {
       uuid: "0e19e021-5e7b-4e21-a748-6f5cc5e61ad5",
       term: "POS",
-      title: "Point of Service (health insurance)",
+      title: "Point of Service",
       description: `If you utilize physicians, hospitals, and other health care providers who are part of the plan's network, you will pay less. In order to see a specialist, POS plans also demand a referral from your primary care physician.`,
       tags: [
         {
           name: "financial-independence",
           color: "blue",
         },
+        {
+          name: "health-insurance",
+          color: "pink",
+        },
       ],
     },
     {
       uuid: "3a83fc0d-01a2-4a47-bea2-1f19c9bc86e6",
       term: "HMO",
-      title: "Health Maintenance Organization (health insurance)",
+      title: "Health Maintenance Organization",
       description: `is a simple health insurance alternative insurance model. In the HMO model, policyholders are compelled to seek treatment from a specific HMO practice first if they become ill.`,
       tags: [
         {
           name: "financial-independence",
           color: "blue",
         },
+        {
+          name: "health-insurance",
+          color: "pink",
+        },
       ],
     },
     {
       uuid: "3cc17638-aef0-474c-9eae-62c59f5c6139",
       term: "EPO",
-      title: "Exclusive Provider Organization (health insurance)",
+      title: "Exclusive Provider Organization",
       description: `EPO is a health insurance plan that requires you to see a specific doctor or specialist.`,
       tags: [
         {
           name: "financial-independence",
           color: "blue",
+        },
+        {
+          name: "health-insurance",
+          color: "pink",
         },
       ],
     },
@@ -134,6 +150,10 @@ export const financialIndependenceGlossary: Glossary = {
         {
           name: "financial-independence",
           color: "blue",
+        },
+        {
+          name: "health-insurance",
+          color: "pink",
         },
       ],
     },
