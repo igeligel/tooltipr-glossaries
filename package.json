@@ -1,0 +1,35 @@
+{
+  "name": "tooltipr-glossaries",
+  "version": "0.0.1-beta.1",
+  "description": "The glossaries supporting tooltipr and all tools of tooltipr.",
+  "keywords": [
+    "tooltipr",
+    "glossaries"
+  ],
+  "author": "Kevin Peters <hello@tooltipr.com>",
+  "license": "Attribution-NonCommercial 3.0 Unported",
+  "type": "module",
+  "source": "src/index.ts",
+  "exports": {
+    "require": "./dist/index.cjs",
+    "default": "./dist/index.modern.js"
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.module.js",
+  "unpkg": "./dist/index.umd.js",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch",
+    "format": "prettier --write ./src/**/*.{js,css,md,json,ts}",
+    "prepare": "yarn format && yarn build"
+  },
+  "types": "dist/index.d.ts",
+  "devDependencies": {
+    "husky": "^7.0.4",
+    "microbundle": "^0.14.2",
+    "prettier": "^2.5.1"
+  },
+  "lint-staged": {
+    "*.{js,css,md,json,ts}": "prettier --write"
+  }
+}
