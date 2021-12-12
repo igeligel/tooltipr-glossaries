@@ -21,7 +21,7 @@ tooltipr-glossaries is published on npm. You can install it with the following c
  <summary>yarn</summary>
 
 ```bash
-npm install tooltipr-glossaries
+yarn add tooltipr-glossaries
 ```
 
 </details>
@@ -30,7 +30,7 @@ npm install tooltipr-glossaries
  <summary>npm</summary>
 
 ```bash
-yarn add tooltipr-glossaries
+npm install tooltipr-glossaries
 ```
 
 </details>
