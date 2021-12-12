@@ -1,13 +1,13 @@
 {
   "name": "tooltipr-glossaries",
-  "version": "0.0.1-beta.6",
+  "version": "0.0.1-beta.7",
   "description": "The glossaries supporting tooltipr and all tools of tooltipr.",
   "keywords": [
     "tooltipr",
     "glossaries"
   ],
   "author": "Kevin Peters <hello@tooltipr.com>",
-  "license": "Attribution-NonCommercial 3.0 Unported",
+  "license": "CC-BY-NC-3.0",
   "type": "module",
   "source": "src/index.ts",
   "exports": {
